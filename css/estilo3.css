@@ -1,0 +1,301 @@
+#Skills {
+    background: linear-gradient(135deg, rgb(170, 14, 14), rgb(216, 135, 135), rgb(80, 39, 39));
+    height: 655px;
+    width: 100%;
+    position: relative;
+}
+
+.tit6 {
+    position: absolute;
+    font-size: 50px;
+    font-family: Fredoka;
+    top: 20px;
+    left: 570px;
+    color: rgb(47, 238, 104);
+}
+
+.skill1 {
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 05 3px 10px 9px transparent;
+    background-color: transparent;
+    top: 120px;
+    left: 250px;
+    width: 230px;
+    transition: 0.3s ease;
+}
+
+.skill1:hover {
+    border: 1px solid rgb(90, 2, 206);
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 6px rgb(154, 35, 158);
+    background-color: rgb(134, 59, 156);
+}
+
+.texts1 {
+    opacity: 0%;
+    position: absolute;
+    font-family: Poppins;
+    border: 2px solid transparent;
+    background-color: transparent;
+    box-shadow: 2px 3px 10px 6px transparent;
+    border-radius: 6px;
+    top: 370px;
+    left: 220px;
+    width: 290px;
+    font-size: 16px;
+    transition: 0.4s ease;
+}
+
+.texts1:hover {
+    opacity: 100%;
+    color: whitesmoke;
+    border: 2px solid rgb(255, 238, 1);
+    background-color: rgb(10, 14, 14);
+    box-shadow: 2px 3px 10px 6px rgb(90, 99, 99);
+    border-radius: 6px;
+}
+
+
+.skill2 {
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 05 3px 10px 9px transparent;
+    background-color: transparent;
+    top: 105px;
+    left: 530px;
+    width: 260px;
+    transition: 0.3s ease;
+}
+
+.skill2:hover {
+    border: 1px solid rgb(90, 2, 206);
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 6px rgb(154, 35, 158);
+    background-color: rgb(134, 59, 156);
+}
+
+.texts2 {
+    opacity: 0%;
+    position: absolute;
+    font-family: Poppins;
+    border: 2px solid transparent;
+    background-color: transparent;
+    box-shadow: 2px 3px 10px 6px transparent;
+    border-radius: 6px;
+    top: 370px;
+    left: 530px;
+    width: 290px;
+    font-size: 16px;
+    transition: 0.4s ease;
+}
+
+.texts2:hover {
+    opacity: 100%;
+    color: whitesmoke;
+    border: 2px solid rgb(255, 238, 1);
+    background-color: rgb(10, 14, 14);
+    box-shadow: 2px 3px 10px 6px rgb(90, 99, 99);
+    border-radius: 6px;
+}
+
+.skill3 {
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 05 3px 10px 9px transparent;
+    background-color: transparent;
+    top: 120px;
+    left: 850px;
+    width: 220px;
+    transition: 0.3s ease;
+}
+
+.skill3:hover {
+    border: 1px solid rgb(90, 2, 206);
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 6px rgb(154, 35, 158);
+    background-color: rgb(134, 59, 156);
+}
+
+.texts3 {
+    opacity: 0%;
+    position: absolute;
+    font-family: Poppins;
+    border: 2px solid transparent;
+    background-color: transparent;
+    box-shadow: 2px 3px 10px 6px transparent;
+    border-radius: 6px;
+    top: 370px;
+    left: 850px;
+    width: 270px;
+    font-size: 14px;
+    transition: 0.4s ease;
+}
+
+.texts3:hover {
+    opacity: 100%;
+    color: whitesmoke;
+    border: 2px solid rgb(255, 238, 1);
+    background-color: rgb(10, 14, 14);
+    box-shadow: 2px 3px 10px 6px rgb(90, 99, 99);
+    border-radius: 6px;
+}
+
+#Cursos {
+    position: relative;
+    width: 100%;
+    height: 660px;
+    background: linear-gradient(140deg, rgb(44, 43, 43), rgb(70, 66, 66), rgb(107, 106, 106));
+}
+
+.tit7 {
+    position: absolute;
+    font-size: 50px;
+    font-family: sans-serif;
+    top: 20px;
+    left: 550px;
+    color: rgb(43, 55, 231);
+}
+
+#curso1 {
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    width: 250px;
+    border: 1px solid gainsboro;
+}
+
+#certificado1 {
+    position: absolute;
+    opacity: 0;
+    top: 100px;
+    left: 900px;
+    width: 250px;
+    border: 1px solid gainsboro;
+    transition: 0.6s ease;
+}
+
+#certificado1:hover {
+    opacity: 100%;
+}
+
+.texto1 {
+    position: absolute;
+    top: 295px;
+    left: 910px;
+    color: azure;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.texto2 {
+    position: absolute;
+    top: 320px;
+    left: 915px;
+    color: azure;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+color {
+    color: rgb(84, 148, 233);
+}
+
+#Contato {
+    position: relative;
+    height: 660px;
+    width: 100%;
+    background: linear-gradient(120deg, rgb(6, 99, 221), rgb(136, 37, 194));
+}
+
+.tit8 {
+    position: absolute;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: Silk;
+    top: 20px;
+    left: 100px;
+    color: rgb(164, 179, 29);
+    transition: 0.3s ease;
+}
+
+.tit8:hover {
+    color: tomato;
+}
+
+.rede1 {
+    position: absolute;
+    border: 1px solid whitesmoke;
+    top: 150px;
+    left: 150px;
+    display: flex;
+    width: 130px;
+    cursor: pointer;
+}
+
+.rede2 {
+    position: absolute;
+    border: 1px solid whitesmoke;
+    top: 150px;
+    left: 380px;
+    display: flex;
+    width: 130px;
+    cursor: pointer;
+}
+
+.rede3 {
+    position: absolute;
+    border: 1px solid whitesmoke;
+    top: 150px;
+    left: 610px;
+    display: flex;
+    width: 130px;
+    cursor: pointer;
+}
+
+.rede4 {
+    position: absolute;
+    top: 150px;
+    left: 850px;
+    display: flex;
+    width: 140px;
+    cursor: pointer;
+}
+
+.rede5 {
+    position: absolute;
+    top: 150px;
+    left: 1080px;
+    display: flex;
+    width: 140px;
+    cursor: pointer;
+}
+
+.Rodapé {
+    background: linear-gradient(50deg, rgb(90, 250, 170), rgb(55, 194, 78), rgb(11, 116, 7));
+    position: relative;
+    height: 150px;
+}
+
+.rodape {
+    position: absolute;
+    top: 5px;
+    left: 600px;
+}
+
+.rodape1 {
+    position: absolute;
+    font-weight: bold;
+    top: 50px;
+    left: 400px;
+}
+
+.rodape2 {
+    position: absolute;
+    left: 110px;
+}

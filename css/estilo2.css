@@ -1,0 +1,329 @@
+@font-face {
+    font-family: Fredoka;
+    src: url(../fonts/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Trispace;
+    src: url(../fonts/Trispace-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+.fam {
+    position: absolute;
+    top: 160px;
+    left: 550px;
+    width: 210px;
+    border: 1px solid black;
+}
+
+.tit3 {
+    position: absolute;
+    top: 120px;
+    left: 550px;
+    font-size: 22px;
+}
+
+
+.text1 {
+    position: absolute;
+    font-weight: bold;
+    top: 280px;
+    left: 480px;
+    font-size: 16px;
+}
+
+.text2 {
+    position: absolute;
+    font-weight: bold;
+    top: 310px;
+    left: 550px;
+    font-size: 16px;
+}
+
+.tit4 {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    font-size: 28px;
+}
+
+.text3 {
+    position: absolute;
+    width: 350px;
+    top: 200px;
+    left: 110px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+#Projetos {
+    position: relative;
+    width: 100%;
+    height: 740px;
+    background-color: rgb(20, 18, 18);
+}
+
+.tit5 {
+    position: absolute;
+    font-size: 30px;
+    font-family: Fredoka;
+    top: 20px;
+    left: 590px;
+    color: rgb(224, 215, 215);
+}
+
+.mario {
+    position: absolute;
+    width: 310px;
+    border: 7px solid rgb(134, 123, 123);
+    border-radius: 6px;
+    top: 120px;
+    left: 230px;
+}
+
+.repo1 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 310px;
+    left: 250px;
+    border: 1px solid rgb(192, 191, 191);
+    width: 130px;
+    height: 30px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.repo1::after {
+    margin: 1px;
+    font-size: 15px;
+    content: "\1F865";
+}
+
+.repo1:hover {
+    background-color: rgb(179, 74, 74);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 2px 6px 00 rgb(179, 74, 74);
+}
+
+.jogo1 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 310px;
+    left: 430px;
+    border: 1px solid rgb(192, 191, 191);
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.jogo1::after {
+    margin: 1px;
+    font-size: 15px;
+    content: "\1F865";
+}
+
+
+.jogo1:hover {
+    background-color: rgb(59, 59, 180);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 2px 6px 00 rgb(59, 59, 180);
+}
+
+.forca {
+    position: absolute;
+    width: 310px;
+    border: 7px solid rgb(134, 123, 123);
+    border-radius: 6px;
+    top: 120px;
+    left: 830px;
+}
+
+.repo2 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 310px;
+    left: 870px;
+    border: 1px solid rgb(192, 191, 191);
+    width: 130px;
+    height: 30px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.repo2::after {
+    margin: 1px;
+    font-size: 15px;
+    content: "\1F865";
+}
+
+.repo2:hover {
+    background-color: rgb(179, 74, 74);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 2px 6px 00 rgb(179, 74, 74);
+}
+
+.jogo2 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 310px;
+    left: 1050px;
+    border: 1px solid rgb(192, 191, 191);
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.jogo2::after {
+    margin: 1px;
+    font-size: 15px;
+    content: "\1F865";
+}
+
+
+.jogo2:hover {
+    background-color: rgb(59, 59, 180);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 2px 6px 00 rgb(59, 59, 180);
+}
+
+.tits1 {
+    position: absolute;
+    color: aliceblue;
+    font-size: 18px;
+    top: 90px;
+    left: 215px;
+}
+
+.tits2 {
+    position: absolute;
+    color: aliceblue;
+    font-size: 18px;
+    top: 90px;
+    left: 815px;
+}
+
+.tits3 {
+    position: absolute;
+    color: aliceblue;
+    font-size: 18px;
+    top: 420px;
+    left: 260px;
+}
+
+.tits4 {
+    position: absolute;
+    color: aliceblue;
+    font-size: 18px;
+    top: 420px;
+    left: 850px;
+}
+
+#spider {
+    position: absolute;
+    width: 310px;
+    border: 7px solid rgb(134, 123, 123);
+    border-radius: 6px;
+    top: 450px;
+    left: 230px;
+}
+
+.repo3 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 640px;
+    left: 250px;
+    border: 1px solid rgb(192, 191, 191);
+    width: 130px;
+    height: 30px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.repo3::after {
+    margin: 1px;
+    font-size: 15px;
+    content: "\1F865";
+}
+
+.repo3:hover {
+    background-color: rgb(179, 74, 74);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 2px 6px 00 rgb(179, 74, 74);
+}
+
+.jogo3 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 640px;
+    left: 420px;
+    border: 1px solid rgb(192, 191, 191);
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.jogo3::after {
+    margin: 1px;
+    font-size: 15px;
+    content: "\1F865";
+}
+
+
+.jogo3:hover {
+    background-color: rgb(59, 59, 180);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 2px 6px 00 rgb(59, 59, 180);
+}
+
+#netflix {
+    position: absolute;
+    width: 310px;
+    border: 7px solid rgb(134, 123, 123);
+    border-radius: 6px;
+    top: 450px;
+    left: 830px;
+}
+
+.repo4 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 640px;
+    left: 920px;
+    border: 1px solid rgb(192, 191, 191);
+    width: 130px;
+    height: 30px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.repo4::after {
+    margin: 1px;
+    font-size: 15px;
+    content: "\1F865";
+}
+
+.repo4:hover {
+    background-color: rgb(179, 74, 74);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 2px 6px 00 rgb(179, 74, 74);
+}
